@@ -31,11 +31,7 @@
     <optgroup label="Cilgerran">
       <option data-manifest="test/manifest_cilgerrane131.json"
         Cilgerran E131 Initial release</option>
-      <option data-manifest="bin/beta_0_15_0-b3/manifest.json"
-        data-ethernet="bin/beta_0_15_0-b3/manifest_e.json"
-        data-audio = "bin/beta_0_15_0-b3/manifest_a.json"
-        data-test = "bin/beta_0_15_0-b3/manifest_t.json"
-        >0.15.0-b3</option>
+      <option data-manifest="manifest_cilgerranlightning.json">Cilgerran 6ch Lightning</option>
       <!--<option data-manifest="bin/beta_0_15_0-b2/manifest.json"
         data-ethernet="bin/beta_0_15_0-b2/manifest_e.json"
         data-audio = "bin/beta_0_15_0-b2/manifest_a.json"
@@ -48,8 +44,8 @@
         >0.15.0-b1</option> -->
     </optgroup>
  
-    <optgroup label="Release">
-      <option data-manifest="bin/release_0_14_4/manifest.json"
+    <optgroup label="Harlech">
+      <!--<option data-manifest="bin/release_0_14_4/manifest.json"
         data-ethernet="bin/release_0_14_4/manifest_e.json"
         data-audio = "bin/release_0_14_4/manifest_a.json"
         data-test = "bin/beta_0_14_4/manifest_t.json"
@@ -77,24 +73,13 @@
         >0.13.3</option>
       <option data-manifest="bin/release_0_13_1/manifest.json"
         data-ethernet="bin/release_0_13_1/manifest_e.json"
-        >0.13.1</option>
+        >0.13.1</option>-->
     
-    <optgroup label="Sound Reactive (deprecated)">
-      <option data-manifest="bin/sr_0_13_4/manifest.json"
-        data-ethernet="bin/sr_0_13_4/manifest_e.json"
-        >0.13.4 </option>
-    </optgroup>
   </select><br>
 
   <div class="radio" onchange="setManifest()">
     <input class="radio__input" type="radio" value="normal" name="version" id="normal" checked>
     <label class="radio__label" for="normal" id="normal_label">Plain</label>
-    <input class="radio__input" type="radio" value="audio" name="version" id="audio">
-    <label class="radio__label" for="audio" id="audio_label">Audioreactive</label>
-    <input class="radio__input" type="radio" value="ethernet" name="version" id="ethernet">
-    <label class="radio__label" for="ethernet" id="ethernet_label">Ethernet</label>
-    <input class="radio__input" type="radio" value="test" name="version" id="test">
-    <label class="radio__label" for="test" id="test_label">ESP8266 CPU Frequency Test</label>
   </div>
     <br>
     <div class="container inst-button">
@@ -106,7 +91,7 @@
       </esp-web-install-button><br>
 </div>
 <br></brY><br>Powered by <a href="https://esphome.github.io/esp-web-tools/" target="_blank">ESP Web Tools</a><br>
-<br><a href="https://github.com/Aircoookie/WLED" target="_blank">GitHub</a>&emsp;<a href="https://kno.wled.ge" target="_blank">kno.wled.ge</a>
+<br><a href="https://github.com/Audio-Rochey/" target="_blank">GitHub</a>&emsp;<a href="http://www.terraintronics.com" target="_blank">terraintronics.com</a>
 
 <script
   type = "text/javascript"
