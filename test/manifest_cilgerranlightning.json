@@ -1,0 +1,12 @@
+{
+    "name": "Cilgerran 6 Lightning Outputs",
+    "new_install_prompt_erase": true,
+    "builds": [
+      {
+        "chipFamily": "ESP8266",
+        "parts": [
+          { "path": "Cilgerran3-AllLightning.bin", "offset": 0 }
+        ]
+      }
+    ]
+  }
