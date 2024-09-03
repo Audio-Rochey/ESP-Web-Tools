@@ -32,21 +32,25 @@
 <thead>
 <tr>
 <th>Wemos D1 Image</th>
+<th>Details</th>
 <th>Download Button</th>
 </tr>
 </thead>
 <tbody>
 <tr>
+<td>Cilgerran Castle - 6ch Lightning</td>
+<td>Runs without wifi etc. Outputs 1-6 can drive 1W LED,s but make sure they have onboard resistors</td>
+<td><esp-web-install-button manifest="test/manifest_cilgerranlightning.json"></esp-web-install-button></td>
+</tr>	
+<tr>
 <td>Cilgerran DMX/E131 Wifi Control</td>
+<td>E1.31 implimentation. Starts as it's own Wifi. Connect, got to http://192.168.4.1 and tell it your own WiFi Details.</td>
 <td>
 <esp-web-install-button manifest="test/manifest_cilgerrane131.json"></esp-web-install-button>
 </tr>
 <tr>
-<td>Cilgerran Castle - 6ch Lightning<BR>Runs without wifi etc.</td>
-<td><esp-web-install-button manifest="test/manifest_cilgerranlightning.json"></esp-web-install-button></td>
-</tr>
-<tr>
-<td>Harlech Castle - 8x On/Off LED<BR>DMX/E1.31 Control<BR> 1st Channel = Global PWM Brightness, Ch2-9 ONOFF when Threshold is crossed.</td>
+<td>Harlech Castle - 8x On/Off LED<BR>DMX/E1.31 Control<BR> </td>
+<td>E1.31 implimentation. Starts as it's own Wifi. Connect, got to http://192.168.4.1 and tell it your own WiFi Details. E1.31 (Wireless DMX) 1st Channel Data = Global PWM Brightness, Ch2-9 ONOFF when Threshold is crossed.</td>
 <td><esp-web-install-button manifest="test/manifest_Harlech-DMXE131.json"></esp-web-install-button></td>
 </tr>
 </tbody>
