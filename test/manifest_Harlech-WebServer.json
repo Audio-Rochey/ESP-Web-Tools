@@ -1,11 +1,11 @@
 {
-    "name": "Harlech-Simple Web Server Control",
+    "name": "Harlech-Simple Web Server Control V1.1",
     "new_install_prompt_erase": true,
     "builds": [
       {
         "chipFamily": "ESP8266",
         "parts": [
-          { "path": "Harlech-WebServer.bin", "offset": 0 }
+          { "path": "Harlech-WebServerAndGUIONOFFv1p1.bin", "offset": 0 }
         ]
       }
     ]
