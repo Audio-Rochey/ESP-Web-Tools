@@ -43,9 +43,14 @@ width: 20%;">
 </thead>
 <tbody>
 <tr>
-<td>Harlech Castle - 8x On/Off LED<BR>DMX/E1.31 Control<BR> </td>
-<td>E1.31 implimentation. Starts as it's own Wifi. <BR>Connect, got to http://192.168.4.1 and tell it your own WiFi Details. <BR>E1.31 (Wireless DMX) 1st Channel Data = Global PWM Brightness<BR> Ch2-9 ONOFF when Threshold is crossed.<BR>Reset the Wifi by pressing the reset on the Wemos D1 Mini Twice, with about a 2S delay.</td>
-<td><esp-web-install-button manifest="test/manifest_Harlech-DMXE131.json"></esp-web-install-button></td>
+    <td>Harlech Castle - LED Test Program</td>
+    <td>Runs an ONOFF cycle through your LED's. Really useful for testing if you soldered the board correctly!   </td>
+    <td><esp-web-install-button manifest="test/manifest_Harlech-ledtest.json"></esp-web-install-button></td>
+    </tr>
+<tr>
+    <td>Harlech Castle - 8x On/Off LED<BR>DMX/E1.31 Control<BR> </td>
+    <td>E1.31 implimentation. Starts as it's own Wifi. <BR>Connect, got to http://192.168.4.1 and tell it your own WiFi Details. <BR>E1.31 (Wireless DMX) 1st Channel Data = Global PWM Brightness<BR> Ch2-9 ONOFF when Threshold is crossed.<BR>Reset the Wifi by pressing the reset on the Wemos D1 Mini Twice, with about a 2S delay.</td>
+    <td><esp-web-install-button manifest="test/manifest_Harlech-DMXE131.json"></esp-web-install-button></td>
 </tr>
 <tr>
   <td>Harlech Castle - 8x On/Off LED<BR>HTML Website Control<BR> </td>
@@ -55,11 +60,21 @@ width: 20%;">
     <BR>Reset the Wifi by pressing the reset on the Wemos D1 Mini Twice, with about a 2S delay.</td>
   <td><esp-web-install-button manifest="test/manifest_Harlech-WebServer.json"></esp-web-install-button></td>
   </tr>
-  <tr>
-    <td>Harlech Castle - LED Test Program</td>
-    <td>Runs an ONOFF cycle through your LED's   </td>
-    <td><esp-web-install-button manifest="test/manifest_Harlech-ledtest.json"></esp-web-install-button></td>
+<tr>
+    <td>Harlech Castle - Medieval Lighting Program</td>
+    <td>6 Programs split the outputs into 2 banks. <BR>
+      <ol>
+        <li>All OFF</li>
+        <li>4xON, 4xOFF</li>
+        <li>4x CANDLE, 4x OFF</li>
+        <li>8x CANDLE</li>
+        <li>8x ON</li>
+        <li>4x CANDLE, 4x ON</li>
+        <li>8x ON</li>
+      </ol></td>
+    <td><esp-web-install-button manifest="test/manifest_Harlech-Medieval-1p0.json"></esp-web-install-button></td>
     </tr>
+<tr>
 </tbody>
 </table>
 	
