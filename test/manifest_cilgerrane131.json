@@ -1,11 +1,11 @@
 {
-    "name": "Cilgerran E131",
+    "name": "Cilgerran DMXE131-OTA-uPNP",
     "new_install_prompt_erase": true,
     "builds": [
       {
         "chipFamily": "ESP8266",
         "parts": [
-          { "path": "Cilgerran4-DMXE131.bin", "offset": 0 }
+          { "path": "CilgerranDMXE131-OTA-uPNP.bin", "offset": 0 }
         ]
       }
     ]
