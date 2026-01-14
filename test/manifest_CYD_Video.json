@@ -6,10 +6,10 @@
     {
       "chipFamily": "ESP32",
       "parts": [
-        { "path": "esp32firmware/CYD_VideoPlayer_V2.bootloader.bin", "offset": 4096 },
-        { "path": "esp32firmware/CYD_VideoPlayer_V2.partitions.bin", "offset": 32768 },
+        { "path": "esp32firmware/CYD_VideoPlayer_V2a.bootloader.bin", "offset": 4096 },
+        { "path": "esp32firmware/CYD_VideoPlayer_V2a.partitions.bin", "offset": 32768 },
         { "path": "esp32firmware/boot_app0.bin", "offset": 57344 },
-        { "path": "esp32firmware/CYD_VideoPlayer_V2.bin", "offset": 65536 }
+        { "path": "esp32firmware/CYD_VideoPlayer_V2a.bin", "offset": 65536 }
       ]
     }
   ]
